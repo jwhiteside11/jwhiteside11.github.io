@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+
+.counter {
+  position: absolute;
+  margin: 0 -50px 0 0;
+  width: 200px;
+  height: 150px;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+}
+
+.win-contain {
+  width: 100%;
+  margin: auto 0;
+  position: absolute;
+}
+
+.winner {
+  width: 700px;
+  height: 700px;
+  margin: 75px 365px;
+  position: absolute;
+}
