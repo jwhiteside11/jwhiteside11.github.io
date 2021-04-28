@@ -1,0 +1,78 @@
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-weight: 700;
+  src: local('Comfortaa'), url(./Comfortaa-VariableFont_wght.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 500;
+  src: local('Rubik'), url(./Comfortaa-VariableFont_wght.ttf) format('opentype');
+}
+
+.app-contain {
+  display: grid;
+}
+
+.first-block {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 20% 40% 1fr;
+}
+
+.feat-car-contain {
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+  height: 42vw;
+  align-items: center;
+  justify-items: flex-end;
+  padding-right: 1vw;
+}
+
+.feat-title-wrap {
+  grid-row: 1;
+  grid-column: 1;
+  width: 22.8vw;
+  height: 11vw;
+}
+
+.welc-contain {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.t-block {
+  display: grid;
+  grid-template-rows: 70% 1fr;
+  height: 5vw;
+  width: 26vw;
+  border-radius: 1vw 0 1vw 0;
+  margin: 3vw 0 0 2.4vw;
+}
+
+#t-title {
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+margin: 0.4vw 0.2vw;
+}
+
+#t-rule {
+  border: 0;
+  margin: 0 0 0 1.2vw;
+  border-top: 1px solid #000000;
+  align-self: center;
+}
+
+.welc-outer {
+  display: grid;
+  grid-template-rows: 60% 1fr;
+}
+
+#welc-text {
+  grid-row: 2;
+  margin: 0.8vw 0 0.8vw 3.2vw;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2vw;
+}

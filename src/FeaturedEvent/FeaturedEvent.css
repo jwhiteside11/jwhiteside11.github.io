@@ -1,0 +1,163 @@
+
+.feat-outer {
+  display: grid;
+  width: 74vw;
+  height: 37vw;
+}
+
+.feat-pic {
+  display: grid;
+  position: absolute;
+  background-size: cover;
+  width: 74vw;
+  height: 37vw;
+  border-radius: 1vw;
+}
+
+.feat-overlay {
+  display: grid;
+  grid-template-columns: 72% 1fr;
+  opacity: 0;
+  background: linear-gradient(90deg, rgba(60,60,60,0) 60%, rgba(60,60,60,0.83) 75%, rgba(60,60,60,0.9) 87%, rgba(60,60,60,0.9) 100%);
+  border-radius: 1vw;
+  color: #ffffff;
+  position: absolute;
+  left: 100%;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.feat-pic:hover .feat-overlay {
+  width: 100%;
+  left: 0;
+  opacity: 1;
+}
+
+.feat-info {
+  display: grid;
+  grid-template-rows: 25% 30% 35% 10%;
+  grid-template-columns: 25% 75%;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2;
+  width: 16.5vw;
+  height: 25.5vw;
+  padding: 0 2vw;
+  margin-top: 6vw;
+  border-left: 1px solid #ffffff;
+  font-size: 1.7vw;
+}
+
+.feat-info p {
+  margin: 0;
+  grid-column: 1 / 3;
+  text-align: center;
+}
+
+.feat-info:first-child > p {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  align-self: flex-end;
+  margin-block-end: 0.5vw;
+}
+
+.feat-sub-info {
+  display: grid;
+  align-items: center;
+  justify-self: center;
+  grid-column: 1 / 3;
+  grid-row: 3;
+  grid-template-rows: 33% 33% 1fr;
+  grid-template-columns: 12% auto;
+  height: 80%;
+  width: fit-content;
+  font-size: 1.2vw;
+}
+
+.feat-sub-info p {
+  grid-column: 2;
+  justify-self: flex-start;
+  margin-left: 1vw;
+}
+
+#ic1, #ic2, #ic3 {
+  grid-column: 1;
+  width: 1.3vw;
+  height: 1.3vw;
+  margin-top: 0.1vw;
+  justify-self: flex-end;
+}
+
+#ic1, #venue {
+  grid-row: 1;
+}
+
+#ic2, #date {
+  grid-row: 2;
+}
+
+#ic3, #loc {
+  grid-row: 3;
+}
+
+.tag-btn {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-row: 4;
+  grid-column: 1 / 3;
+  justify-self: center;
+  align-items: center;
+  height: 3vw;
+  width: 12vw;
+  border-radius: 2vw;
+  border: 3px solid #ffffff;
+  margin-top: 3vw;
+  transition: all 0.1s ease;
+}
+
+#tag {
+  grid-column: 1;
+  height: 2.3vw;
+  width: 2.3vw;
+  justify-self: flex-end;
+}
+
+#price {
+  grid-column: 2;
+  justify-self: baseline;
+  margin-left: 1.3vw;
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+
+.tag-btn:hover {
+  background-color: white;
+}
+
+.tag-btn:hover p {
+  color: #3c3c3c;
+}
+
+.tag-btn:hover #tag {
+  content: url("../icons/tag-grey.svg");
+}
+
+.tag-btn:active {
+  background-color: unset;
+}
+
+.tag-btn:active p {
+  color: #ffffff;
+}
+
+.tag-btn:active #tag {
+  content: initial;
+}
+
+#venue, #date, #loc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

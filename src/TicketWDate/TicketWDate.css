@@ -1,0 +1,148 @@
+
+.outer {
+  display: grid;
+  align-content: center;
+}
+
+.wrapper {
+  height: 11vw;
+  width: 22vw;
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.ticket-bkgd {
+  display: grid;
+  grid-template-columns: 80% 1fr;
+  height: 11vw;
+  width: 22vw;
+  border-radius: 0.7vw;
+  transform-origin: left;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.wrapper:hover > .ticket-bkgd {
+  transform: scaleX(0.6);
+}
+
+.wrapper:hover > .date-graphic {
+  transform: translateX(-60%);
+  opacity: 0;
+}
+
+.wrapper:hover > .graphic {
+  transform: translateX(-48%);
+}
+
+.graphic {
+  position: absolute;
+  height: 9vw;
+  margin-top: 0.7vw;
+  margin-left: 6.5vw;
+  z-index: 3;
+  transition: all 0.24s ease;
+}
+
+.date-graphic {
+  grid-column: 2;
+  width: 2.6vw;
+  height: 3.6vw;
+  text-align: center;
+  padding: 0 0.4vw;
+  background-color: #fafafa;
+  border-radius: 0.4vw;
+  transition: 0.14s ease-in;
+  justify-self: flex-end;
+  margin-top: 0.5vw;
+  margin-right: 0.5vw;
+  z-index: 3;
+}
+
+.month, .day {
+  font-size: 0.9vw;
+  line-height: 0.8;
+  margin: 0.3vw 0;
+}
+
+.month {
+  margin-bottom: 0px;
+}
+
+.day {
+  margin-top: 0.4vw;
+  font-size: 1.2vw;
+}
+
+hr {
+  margin: 0.25vw;
+}
+
+.info {
+  position: absolute;
+  margin-left: 14vw;
+  margin-top: 0.25vw;
+  width: 7vw;
+  font-family: 'Comfortaa', cursive;
+  font-size: 0.7vw;
+  text-align: center;
+  line-height: 1;
+}
+
+.info p {
+  padding: 0;
+  margin: 0.25vw;
+}
+
+#full-date {
+  font-size: 0.8vw;
+  font-weight: 900;
+  margin-bottom: 0.5vw;
+}
+
+.btn {
+  position: absolute;
+  height: 2.2vw;
+  width: 5vw;
+  margin-left: 15vw;
+  margin-top: 7.5vw;
+  border-radius: 0.4vw;
+  border-color: #353535;
+  outline: #00000000;
+}
+
+.btn:hover {
+  border-color: #0a0a0a;
+}
+
+.btn:active {
+  background-color: #dadada;
+  color: #000000;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  align-items: center;
+}
+
+.btn-grid p {
+  margin: 0;
+}
+
+.start-from {
+  grid-column: 1;
+  display: inline-block;
+  width: 2.3vw;
+  text-align: left;
+  font-size: 0.5vw;
+}
+  
+.cost {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 0.8vw;
+}

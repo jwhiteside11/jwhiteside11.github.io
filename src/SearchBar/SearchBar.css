@@ -1,0 +1,34 @@
+
+.search-contain {
+  display: grid;
+  grid-template-columns: 5% 1fr 1%;
+  width: 11vw;
+  align-items: center;
+}
+
+#placehold {
+  grid-column: 1;
+  z-index: 2;
+  padding-left: 1.2vw;
+  margin: 0;
+  font-size: 1vw;
+  opacity: 0.8;
+}
+
+#search {
+  grid-column: 2 / 3;
+}
+
+#search-input {
+  width: 11vw;
+  font-size: 1.2vw;
+  border-radius: 1vw;
+  border: 2px solid #3b3b3b;
+  padding: 0.4vw 0.6vw;
+}
+
+#search-icn {
+  grid-column: 3;
+  height: 60%;
+  margin-left: -2.2vw;
+}
