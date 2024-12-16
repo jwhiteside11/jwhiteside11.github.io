@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9082589.css",
+    "main.js": "/static/js/main.0531af59.js",
+    "static/media/Bradford.jpeg": "/static/media/Bradford.14a99ea42f41c2efefde.jpeg",
+    "static/media/speech-bubble.png": "/static/media/speech-bubble.97d2e7582d0be466cbf6.png",
+    "index.html": "/index.html",
+    "main.a9082589.css.map": "/static/css/main.a9082589.css.map",
+    "main.0531af59.js.map": "/static/js/main.0531af59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9082589.css",
+    "static/js/main.0531af59.js"
+  ]
+}

@@ -1,0 +1,2 @@
+body{background-color:#111738;color:#fff;font-family:Trebuchet MS,sans-serif;font-size:18px;text-align:center}.Home .outlet{display:grid;justify-items:center}.Home a{color:#fff;font-size:24px;text-decoration:none;text-transform:uppercase}#bfi:hover{cursor:pointer}.outlet>div{width:40vw}.bubble{opacity:0;transform:translateY(24px);transition:all .2s ease-in-out;transition-property:opacity transform}.bubble.shown{opacity:1;transform:translateY(0)}
+/*# sourceMappingURL=main.a9082589.css.map*/
