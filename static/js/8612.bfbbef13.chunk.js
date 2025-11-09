@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkqr_code_scanner=self.webpackChunkqr_code_scanner||[]).push([[8612],{8612:(c,e,n)=>{n.r(e),n.d(e,{circleSvg:()=>l});var s,i=n(7528);const l=(0,n(7022).JW)(s||(s=(0,i.A)(['<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">\n<circle cx="2" cy="2" r="2" fill="white" fill-opacity="0.2"/>\n</svg>\n'])))}}]);
+//# sourceMappingURL=8612.bfbbef13.chunk.js.map
